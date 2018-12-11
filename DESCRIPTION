@@ -14,7 +14,7 @@ License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Imports: 
-    rtweet (>= 3.1.0),
+    rtweet (>= 0.6.8),
     textfeatures (>= 0.3.1),
     gbm (>= 2.1.4)
 RoxygenNote: 6.1.1
