@@ -1,0 +1,22 @@
+Package: shouldbeverified
+Title: Predict Whether Twitter Users Should Be Verified
+Version: 0.0.1
+Authors@R: 
+    person(given = "Michael W.",
+           family = "Kearney",
+           role = c("aut", "cre"),
+           email = "kearneymw@missouri.edu",
+           comment = c(ORCID = "0000-0002-0730-4694"))
+Description: Generates predictions of whether Twitter users should be verified
+    using a boosted logistic regression model trained on 24,000 verified and
+    non-verified Twitter accounts. Performance on test data was 96% accurate.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    rtweet,
+    textfeatures,
+    gbm
+RoxygenNote: 6.1.1
+URL: https://github.com/mkearney/shouldbeverified
+BugReports: https://github.com/mkearney/shouldbeverified/issues
