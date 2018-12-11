@@ -33,10 +33,18 @@ if (!requireNamespace("remotes")) {
 remotes::install_github("mkearney/shouldbeverified")
 ```
 
+At the current time, this package requires the development version of [textfeatures](https://textfeatures.mikewk.com), which means installing from
+Github:
+
+``` r
+## install from github
+remotes::install_github("mkearney/textfeatures")
+```
+
 ## Use
 
 The key function `should_be_verified()` accepts either a character vector with
-Twitter screen names or user IDs *or* a data frame returned by 
+Twitter screen names or user IDs *or* a data frame as returned by 
 [rtweet](https://rtweet.info).
 
 ```{r}
